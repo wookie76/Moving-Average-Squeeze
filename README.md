@@ -41,22 +41,7 @@ This project offers a two-phase workflow for analyzing stocks:
 
 ---
 
-## Features (Combined)
 
-*   **Highly Efficient HMA Calculation:** Both scripts utilize vectorized NumPy calculations for the Weighted Moving Average (WMA) and Hull Moving Average (HMA), resulting in exceptional speed and minimal memory usage.
-*   **Dynamic Squeeze Signal:**  Calculates a dynamic "squeeze" threshold, inspired by Kridtapon P.'s work and the Bollinger Band Squeeze concept, to identify periods of low volatility.
-*   **`yfinance` Data Acquisition:**  Uses `yfinance` to fetch historical stock data.  Defaults to a 1-hour interval (`1h`), reflecting a focus on intraday trading.
-*   **Clear Signal Generation:**  Provides clear entry (buy) and exit (sell) signals based on HMA crosses and the squeeze condition.
-*   **Interactive Plotly Visualization (Analyzer):** The analyzer script (`GEM2-HULL-HOURLY-SQUEEZE.py`) creates interactive, dark-themed Plotly charts for detailed visual analysis.
-*   **Robust Backtesting (Both):**  Both scripts include backtesting functionality, with the analyzer providing a more comprehensive evaluation.
-*   **Configuration Management (Both):**  Both scripts utilize `pydantic` `Config` classes for type-safe and validated configuration settings, making them easy to customize.
-*   **Command-Line Interface (Both):** Both use `argparse` for a flexible command-line interface.
-*   **Excel Output (Screener):**  The screener (`GEM2-HULL-HOURLY-SCREENER.py`) exports results to an easily sortable and filterable Excel file.
-*   **Rich Console Output (Both):**  Both scripts provide informative output in the console using the `rich` library.
-*   **Data Validation (Analyzer):** The analyzer script employs `pandera` for schema validation of `yfinance` data.
-* **SEO-Optimized Keywords:** Includes relevant keywords like "Hull Moving Average," "HMA squeeze," "trading strategy," "stock screener," "backtesting," "technical analysis," "Python," "yfinance," "Plotly," and "financial analysis" to improve searchability.
-
----
 
 ## Acknowledgements
 
