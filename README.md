@@ -115,4 +115,9 @@ This project offers a two-phase workflow for analyzing stocks:
 
 ---
 
-## `requirements.txt`
+## Notes
+
+*   **Environment:** Developed and tested on Windows 11 with Miniconda.
+*   **Educational Purpose:** This code is intended for educational and research purposes. It is not financial advice.  Always conduct thorough due diligence and risk management before implementing any trading strategy.
+
+---
